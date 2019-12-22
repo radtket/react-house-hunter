@@ -1,8 +1,8 @@
-import property01 from "../images/properties/tn_property01.jpg";
-import property02 from "../images/properties/tn_property02.jpg";
-import property03 from "../images/properties/tn_property03.jpg";
-import property04 from "../images/properties/tn_property04.jpg";
-import property05 from "../images/properties/tn_property05.jpg";
+import property01 from "./images/properties/tn_property01.jpg";
+import property02 from "./images/properties/tn_property02.jpg";
+import property03 from "./images/properties/tn_property03.jpg";
+import property04 from "./images/properties/tn_property04.jpg";
+import property05 from "./images/properties/tn_property05.jpg";
 
 const properties = [
   {

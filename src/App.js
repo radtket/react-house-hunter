@@ -1,15 +1,16 @@
 import React, { useState } from "react";
 import jump from "jump.js";
+import PropTypes from "prop-types";
 import Sidebar from "./components/Sidebar";
 import GoogleMapWrap from "./components/GoogleMapWrap";
-import properties from "./data/properties";
 import { easeInOutCubic } from "./utils/helpers";
 import { GlobalStyles } from "./styles";
+import { ShapeProperty } from "./utils/types";
 
-const App = () => {
+const App = ({ data }) => {
   const [state, setState] = useState({
-    properties,
-    activeProperty: properties[0],
+    properties: data,
+    activeProperty: data[0],
     filterIsVisible: false,
     filterBedrooms: "any",
     filterBathrooms: "any",
@@ -37,18 +38,42 @@ const App = () => {
     }
   };
 
+  const {
+    properties,
+    activeProperty,
+    filterIsVisible,
+    filteredProperties,
+    isFiltering,
+  } = state;
+
+  const propertiesList = isFiltering ? filteredProperties : properties;
+
   return (
     <div>
       <GlobalStyles />
-      <Sidebar {...{ ...state, setState, setActiveProperty }} />
+      <Sidebar
+        {...{
+          activeProperty,
+          filterIsVisible,
+          isFiltering,
+          setState,
+          setActiveProperty,
+          propertiesList,
+        }}
+      />
       <GoogleMapWrap
-        propertiesList={
-          state.isFiltering ? state.filteredProperties : state.properties
-        }
-        {...{ ...state, setState, setActiveProperty }}
+        {...{ activeProperty, setActiveProperty, propertiesList }}
       />
     </div>
   );
+};
+
+App.propTypes = {
+  data: PropTypes.arrayOf(ShapeProperty),
+};
+
+App.defaultProps = {
+  data: [],
 };
 
 export default App;

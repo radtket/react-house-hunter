@@ -21,7 +21,6 @@ const CardsContainer = ({
       }}
     >
       <StyledCardsList className="row" isEmpty={!hasProperties}>
-        <h1>CardsContainer</h1>
         {propertiesList.map(property => (
           <Card
             {...property}
