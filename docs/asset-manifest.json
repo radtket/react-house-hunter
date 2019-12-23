@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.js": "/static/js/main.6b4139d3.chunk.js",
+    "main.js.map": "/static/js/main.6b4139d3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.edb550df.js",
+    "runtime-main.js.map": "/static/js/runtime-main.edb550df.js.map",
+    "static/js/2.44327737.chunk.js": "/static/js/2.44327737.chunk.js",
+    "static/js/2.44327737.chunk.js.map": "/static/js/2.44327737.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9954105b306d292874edc7cc81e59ba0.js": "/precache-manifest.9954105b306d292874edc7cc81e59ba0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.44327737.chunk.js.LICENSE": "/static/js/2.44327737.chunk.js.LICENSE",
+    "static/media/bathtub.svg": "/static/media/bathtub.7e15d4ca.svg",
+    "static/media/bed-left-side.svg": "/static/media/bed-left-side.211d4eba.svg",
+    "static/media/car-compact.svg": "/static/media/car-compact.f1c88fdf.svg",
+    "static/media/house-location-pin.svg": "/static/media/house-location-pin.10ca4c62.svg",
+    "static/media/location-map.svg": "/static/media/location-map.2a7b5a9c.svg",
+    "static/media/tn_property01.jpg": "/static/media/tn_property01.7500641a.jpg",
+    "static/media/tn_property02.jpg": "/static/media/tn_property02.8538b3e0.jpg",
+    "static/media/tn_property03.jpg": "/static/media/tn_property03.38089d10.jpg",
+    "static/media/tn_property04.jpg": "/static/media/tn_property04.fa4d96f5.jpg",
+    "static/media/tn_property05.jpg": "/static/media/tn_property05.3595b098.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.edb550df.js",
+    "static/js/2.44327737.chunk.js",
+    "static/js/main.6b4139d3.chunk.js"
+  ]
+}

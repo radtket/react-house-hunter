@@ -43,11 +43,10 @@ const GoogleMapWrap = compose(
     >
       {propertiesList.map(property => {
         const { latitude: lat, longitude: lng, address, id, index } = property;
-        // eslint-disable-next-line no-underscore-dangle
         const isActive = activeProperty.id === id;
         return (
           <Marker
-            key={address}
+            key={id}
             clickable
             icon={{
               url: markerImage,
