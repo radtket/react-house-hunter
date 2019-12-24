@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.js": "/react-house-hunter/static/js/main.16df844a.chunk.js",
+    "main.js.map": "/react-house-hunter/static/js/main.16df844a.chunk.js.map",
+    "runtime-main.js": "/react-house-hunter/static/js/runtime-main.70bc7f4f.js",
+    "runtime-main.js.map": "/react-house-hunter/static/js/runtime-main.70bc7f4f.js.map",
+    "static/js/2.016d1cdb.chunk.js": "/react-house-hunter/static/js/2.016d1cdb.chunk.js",
+    "static/js/2.016d1cdb.chunk.js.map": "/react-house-hunter/static/js/2.016d1cdb.chunk.js.map",
+    "index.html": "/react-house-hunter/index.html",
+    "precache-manifest.15c4e158262d42fb7e6f5216b8d6de1e.js": "/react-house-hunter/precache-manifest.15c4e158262d42fb7e6f5216b8d6de1e.js",
+    "service-worker.js": "/react-house-hunter/service-worker.js",
+    "static/js/2.016d1cdb.chunk.js.LICENSE": "/react-house-hunter/static/js/2.016d1cdb.chunk.js.LICENSE",
+    "static/media/bathtub.svg": "/react-house-hunter/static/media/bathtub.7e15d4ca.svg",
+    "static/media/bed-left-side.svg": "/react-house-hunter/static/media/bed-left-side.211d4eba.svg",
+    "static/media/car-compact.svg": "/react-house-hunter/static/media/car-compact.f1c88fdf.svg",
+    "static/media/house-location-pin.svg": "/react-house-hunter/static/media/house-location-pin.10ca4c62.svg",
+    "static/media/location-map.svg": "/react-house-hunter/static/media/location-map.2a7b5a9c.svg",
+    "static/media/tn_property01.jpg": "/react-house-hunter/static/media/tn_property01.7500641a.jpg",
+    "static/media/tn_property02.jpg": "/react-house-hunter/static/media/tn_property02.8538b3e0.jpg",
+    "static/media/tn_property03.jpg": "/react-house-hunter/static/media/tn_property03.38089d10.jpg",
+    "static/media/tn_property04.jpg": "/react-house-hunter/static/media/tn_property04.fa4d96f5.jpg",
+    "static/media/tn_property05.jpg": "/react-house-hunter/static/media/tn_property05.3595b098.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70bc7f4f.js",
+    "static/js/2.016d1cdb.chunk.js",
+    "static/js/main.16df844a.chunk.js"
+  ]
+}
