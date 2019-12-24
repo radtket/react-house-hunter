@@ -2,11 +2,13 @@
 	"name": "react-house-hunter",
 	"version": "0.1.0",
 	"private": false,
+	"homepage": "http://radtket.github.io/react-house-hunter",
 	"dependencies": {
 		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.4.0",
 		"@testing-library/user-event": "^7.2.1",
 		"accounting": "^0.4.1",
+		"gh-pages": "^2.1.1",
 		"jump.js": "^1.0.2",
 		"polished": "^3.4.2",
 		"prop-types": "^15.7.2",
@@ -22,7 +24,9 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"browserslist": {
 		"production": [
