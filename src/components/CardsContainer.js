@@ -14,12 +14,7 @@ const CardsContainer = ({
   propertiesList,
 }) => {
   return (
-    <div
-      className="cards container"
-      style={{
-        maxWidth: "100%",
-      }}
-    >
+    <div className="cards container-fluid">
       <StyledCardsList className="row" isEmpty={!hasProperties}>
         {propertiesList.map(property => (
           <Card

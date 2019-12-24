@@ -110,10 +110,10 @@ export const StyledCard = styled.button`
   }
 
   &.is-active {
-    border-color: $blue;
+    border-color: #1078ff;
 
     .index {
-      background-color: $blue;
+      background-color: #1078ff;
     }
   }
 `;
