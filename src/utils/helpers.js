@@ -1,4 +1,4 @@
-import accounting from "accounting";
+import { formatMoney } from "accounting";
 
 export const easeInOutCubic = (t, b, c, d) => {
   if ((t /= d / 2) < 1) {
@@ -8,7 +8,7 @@ export const easeInOutCubic = (t, b, c, d) => {
 };
 
 export const priceFormat = price =>
-  accounting.formatMoney(price, { symbol: "$", precision: 0 });
+  formatMoney(price, { symbol: "$", precision: 0 });
 
 export const isArrayEmpty = arrayArg => {
   if (arrayArg && arrayArg.length) {
